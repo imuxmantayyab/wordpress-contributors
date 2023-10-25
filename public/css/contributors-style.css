@@ -1,0 +1,68 @@
+/* This class contains the main container for the contributors section */
+.contributors-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+/* This class contains the container for the contributor's avatar */
+.title-avatar-container{
+    font-weight: bold;
+    background-color: #fdfdfd;
+    border: none;
+    border-radius: 12px;
+    margin: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: inset 1px 3px 9px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* This class styles the title of the contributors section */
+.title{
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #83b2ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* This class contains the container for each individual contributor */
+.second{
+    border: none; 
+    border-radius: 7px;
+    padding: 10px;
+    border-color: white;
+    margin: 5px; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+.second img{
+    border-radius: 100%;
+}
+
+/* This class styles the name of each contributor */
+.name{
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* This ID centers the avatar image of each contributor */
+.avater-center{
+    text-align: center;
+}
+
+.sub-contributors{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+

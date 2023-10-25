@@ -1,0 +1,80 @@
+/* CSS classes and IDs */
+
+/* This class is used to style an unordered list to display its items in a flexbox layout with wrapping */
+.ulstyle {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border-radius: 16px;
+  }
+  
+  /* This class is used to style each list item in the unordered list */
+  .liStyle {
+    position: relative;
+    padding: 1px 5px 0px 36px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 2px;
+  }
+  
+  /* This class is used to style the cursor as a pointer */
+  .cursorstyle,
+  .fa-times:hover {
+    cursor: pointer;
+  }
+  
+  /* This class is used to style the cursor as default */
+  .cursor-style-error,
+  .liStyle{
+    cursor: default;
+  }
+  
+  /* This class is used to add some top padding to a main box element */
+  .pt-main-box {
+    padding-top: 20px;
+  }
+  
+  /* This class is used to apply a hover effect to each list item in the unordered list */
+  .liStyle:hover {
+    background: #fbfbfb;
+  }
+  
+  /* This class is used to style the cross icon that appears on each list item when hovered over */
+  .fa-times:hover {
+    color: #ff0909;
+  }
+  
+  .fa-times::before {
+    content: "\f00d";
+  }
+  
+  .fa-times {
+    color: blue;
+  }
+  
+  /* This class is used to style a loader animation */
+  .loader {
+    display: none;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #1200ff;
+    border-radius: 50%;
+    width: 12px;
+    height: 11px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 5px 0 0 -30px;
+  }
+  
+  /* CSS keyframes */
+  
+  /* This keyframe animation is used to rotate the loader animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+  
+  
